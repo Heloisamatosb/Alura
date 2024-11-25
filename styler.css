@@ -12,7 +12,38 @@ chamada{
     display: flex;
     justify-content: center;;
 }
-header{
+header{{
     color: beige
     font-size: 40px;
-    border-bottom: solid 3px beige
+    border-bottom: solid 3px }
+    .cstegoria{
+        background-color: rgb(205, 255, 209);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    }
+   
+    categoria-videos{
+display: flex;
+overflow: auto;
+overflow-x: auto;
+gap: 10px;
+    }
+
+    .categoria-videos{
+
+        height: 200px;
+        opacity: 0.5;
+    }
+
+    .categoria-videos img:hover{
+        opacity: 1.0;
+        border: 3ox solid white
+        
+    }
+     
+
+
+
+
+
