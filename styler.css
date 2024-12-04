@@ -12,7 +12,7 @@ chamada{
     display: flex;
     justify-content: center;;
 }
-header{{
+header{
     color: beige
     font-size: 40px;
     border-bottom: solid 3px }
